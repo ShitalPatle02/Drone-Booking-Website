@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .fg{
+      color: red;
+      background-color: yellowgreen;
+      font-size: 40px;
+      font-family: Arial, Helvetica, sans-serif;
+      }
+      table
+      {
+        background-image: linear-gradient(to right,rgb(236, 25, 208),rgb(24, 210, 24),rgb(60, 31, 225));
+        border: solid 5px;
+        width: 50%;
+        height: 100%;
+        border-radius: 20px;
+        margin-top: 200px;
+      }
+      th{
+        
+        color: aliceblue;
+        font-size: 30px;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 10px;
+      }
+      body{
+        background: url(Drony.png);
+     margin: 0;
+     padding: 0;
+     background-position: center;
+     background-size: cover;
+      }
+     input{
+        font-size: 25px;
+        border-radius: 15px;
+        width: auto;
+        margin-bottom: 10px;
+      }
+    </style>
+</head>
+<body>
+    <form method="post" action="Edit.php" name="f1">
+        
+                <table width="30%" align="center">
+                  <tr>
+                     <th colspan="2" class="fg" align="center">Update Your Details</th>
+                    
+                  </tr>
+                   
+                <tr>
+                <th>Customer Id</th>
+                <td><input style="margin-top: 20px;" type="text" name="customer_id"/></td>
+                </tr>
+                
+                <tr>
+                <th>Customer Name</th>
+                <td><input type="text" name="customer_name"/></td>
+                </tr>
+            
+                <tr>
+                <th>Email</th>
+                <td><input type="text" name="email"/></td>
+                </tr>
+                
+                <tr>
+                <th>Phone No.</th>
+                <td><input type="text" name="phone_number"/></td>
+                </tr>
+                
+                <tr>
+                <td colspan="2" align="center">
+                  <input type="Submit" name="Submit" value="Submit"/>
+                  <input type="Reset" name="reset" value="Reset"/>
+                </td>
+                </tr>
+                </table>
+               
+        
+                </form>
+</body>
+</html>
